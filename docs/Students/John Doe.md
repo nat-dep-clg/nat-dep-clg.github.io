@@ -1,4 +1,4 @@
-# Digna in Iove
+# Щоденник практики
 
 ## Loca ire
 

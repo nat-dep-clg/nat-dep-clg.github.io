@@ -1,6 +1,6 @@
 # Щоденник практики
 
-## Loca ire
+## Вид роботи
 
 Lorem markdownum studiosus tectum est exstant annos desistere ictibus Medusaei
 segetes. Est inquit, ego et Luna vox non miratur prima, aequaret mendacibus

@@ -5,3 +5,4 @@ nav:
     - Info: info.md
     - Students:
           - 'John Doe': "Students/John Doe.md"
+          - 'Jane Doe': "Students/Jane Doe.md"

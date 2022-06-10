@@ -1,5 +1,7 @@
-site_name: QQQQQ
+site_name: Літня практика 2022
 nav:
     - Home: index.md
     - About: about.md
     - Info: info.md
+    - Students:
+          - 'John Doe': "Students/John Doe.md"

@@ -1,0 +1,5 @@
+.idea
+.jekyll-cache
+.venv
+Gemfile.lock
+_site

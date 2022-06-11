@@ -2,8 +2,7 @@ title: Природниче відділення
 description: організація
 google_analytics:
 show_downloads: true
-theme: jekyll-theme-minimal
+theme: jekyll-theme-leap-day
 
 gems:
   - jekyll-mentions
-#theme: jekyll-theme-leap-day

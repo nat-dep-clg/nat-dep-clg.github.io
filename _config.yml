@@ -41,8 +41,9 @@ defaults:
       show_date: true
 
 date_format: "%d.%m.%Y"
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
 
 # Exclude from processing.

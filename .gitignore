@@ -1,2 +1,12 @@
-/.idea/
-/.venv/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+.idea
+.venv
+
+gemfiles/
+Gemfile
+Gemfile.lock
+node_modules/

@@ -7,6 +7,6 @@ vendor
 .venv
 
 gemfiles/
-Gemfile
+#Gemfile
 Gemfile.lock
 node_modules/

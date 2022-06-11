@@ -1,10 +1,10 @@
 main:
   - title: "ПМ"
     description: 'Прикладна математика'
-    url: /docs/quick-start-guide/
+    url: /AM/
   - title: "КІ"
     description: "Комп'ютерна інженерія"
-    url: /year-archive/
+    url: /CE/
   - title: "КН"
     description: "Комп'ютерні науки"
     url: /CS/

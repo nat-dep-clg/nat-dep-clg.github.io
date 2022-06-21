@@ -59,9 +59,12 @@ latex_elements = {
     'papersize': 'a4paper',
     'preamble': r'''
 \usepackage[utf8]{inputenc}	
+\usetikzlibrary{arrows}
 ''',
     'babel': r'''
     \usepackage[ukrainian]{babel}
     ''',
 }
+
+# latex_theme = 'howto'
 latex_show_urls = 'footnote'

@@ -7,9 +7,9 @@
 =======================================
 
 .. toctree::
-
-    api
-
+      test
+      api
+      test1
 
 Indices and tables
 ==================

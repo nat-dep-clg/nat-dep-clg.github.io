@@ -1,0 +1,236 @@
+\documentclass[a4paper,14pt]{extarticle}
+%\usepackage{mathptmx}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{longtable}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{lscape}
+\usepackage{pdflscape}
+\renewcommand{\baselinestretch}{1.0}
+
+\usepackage{wallpaper}
+
+\newcommand{\tabcomp}[1]{\rotatebox[origin=c]{90}{\parbox[c]{2cm}{\centering #1 }}}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\newcommand{\galuz}{12 <<Інформаційні технології>>}
+\newcommand{\spec}{122 <<Комп'ютерні науки>>}
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+
+\begin{normalsize}
+\textbf{МІНІСТЕРСТВО ОСВІТИ І НАУКИ УКРАЇНИ\\
+Чернівецький національний університет імені Юрія Федьковича\\}
+\end{normalsize}
+{\small  \textbf{Коледж Чернівецького національного університету імені Юрія Федьковича}}
+
+\end{center}\vspace{1cm}
+
+\begin{flushright}
+\begin{minipage}{9.5cm}
+\hyphenpenalty=10000
+<<ЗАТВЕРДЖЕНО>>\\
+Вченою радою Чернівецького національного університету імені Юрія Федьковича
+Голова Вченої ради, ректор
+\underline{\hspace{2.7cm}}~Р.І.~Петришин\\
+%<<\underline{\hspace{1cm}}>> \underline{\hspace{3cm}} 2018 р.\\
+Протокол №\underline{\hspace{0.7cm}} від <<\underline{\hspace{0.7cm}}>> \underline{\hspace{2cm}}  20\underline{\hspace{0.7cm}}~р.\\
+\end{minipage}
+\end{flushright}
+
+\begin{center}
+\textbf{ОСВІТНЬО-ПРОФЕСІЙНА ПРОГРАМА\\
+<<КОМП'ЮТЕРНІ НАУКИ>>\\
+}
+\end{center}
+\begin{center}
+\begin{tabular}{ L{5cm}  C{10cm}}
+Рівень освіти & \textbf{Фахова передвища}\\
+\cline{2-2}
+за спеціальністю & \textbf{\spec}\\
+\cline{2-2}
+
+галузі знань & \textbf{\galuz}\\
+\cline{2-2}
+кваліфікація & \textbf{фахівець з інформаційних технологій} \\
+\cline{2-2}
+
+\end{tabular}
+\end{center}
+
+
+
+\begin{flushright}
+\begin{minipage}{9.5cm}
+СХВАЛЕНО
+
+на засіданні Педагогічної ради\\ Коледжу ЧНУ імені Юрія Федьковича\\
+Протокол №\underline{\hspace{0.7cm}} від <<\underline{\hspace{0.7cm}}>> \underline{\hspace{2cm}}  20\underline{\hspace{0.7cm}}~р.\\
+
+Голова Педагогічної ради, директор \underline{\hspace{3cm}}~О.В.Собчук\\
+\end{minipage}
+\end{flushright}
+
+\begin{flushright}
+\begin{minipage}{9.5cm}
+Освітньо-професійна програма вводиться в дію з \underline{\hspace{2cm}} 20\underline{\hspace{0.7cm}}~р.\\
+Ректор \underline{\hspace{3cm}}~Р.І.~Петришин\\
+(наказ №\underline{\hspace{0.7cm}} від <<\underline{\hspace{0.7cm}}>> \underline{\hspace{2cm}}  20\underline{\hspace{0.7cm}}~р.)\\
+\end{minipage}
+\end{flushright}
+\vfill
+\begin{center}
+Чернівці, 2020
+\end{center}
+
+
+%\phantom{12}
+%\ThisCenterWallPaper{1}{122-01.jpg}
+
+\pagebreak
+\thispagestyle{empty}
+\begin{center}
+ЛИСТ ПОГОДЖЕННЯ\\
+освітньо-професійної програми
+\end{center}
+
+
+РІВЕНЬ ОСВІТИ Фахова передвища
+
+ГАЛУЗЬ ЗНАНЬ \galuz
+
+СПЕЦІАЛЬНІСТЬ \spec
+
+КВАЛІФІКАЦІЯ фахівець з інформаційних технологій
+
+\vspace{1cm}
+\begin{tabular}{p{8cm}p{8cm}}
+\begin{flushleft}
+\begin{minipage}{8cm}
+<<РОЗРОБЛЕНО>>\\
+Робочою групою Коледжу
+Чернівецького національного
+університету імені Юрія Федьковича\\
+Керівник робочої групи\\
+\underline{\hspace{3cm}}~В.В.~Ковдриш\\
+
+
+\vspace{0.5cm}
+
+<<СХВАЛЕНО>>\\
+Цикловою комісією комп'ютерних наук Коледжу Чернівецького національного університету імені Юрія Федьковича, голова циклової комісії\\
+\underline{\hspace{3cm}}~В.В.~Коропецький\\
+%<<\underline{\hspace{1cm}}>> \underline{\hspace{3cm}} 2018 р.\\
+Протокол №\underline{\hspace{0.5cm}} від <<\underline{\hspace{0.5cm}}>> \underline{\hspace{1cm}}  20\underline{\hspace{0.5cm}}~р.\\
+
+\vspace{0.5cm}
+
+<<СХВАЛЕНО>>\\
+Методичною радою Коледжу
+Чернівецького національного
+університету імені Юрія Федьковича\\
+Голова Методичної ради\\
+\underline{\hspace{3cm}}~О.Я.~Білокрила\\
+%<<\underline{\hspace{1cm}}>> \underline{\hspace{3cm}} 2018 р.\\
+Протокол №\underline{\hspace{0.5cm}} від <<\underline{\hspace{0.5cm}}>> \underline{\hspace{1cm}}  20\underline{\hspace{0.5cm}}~р.\\
+\end{minipage}
+\end{flushleft}
+&
+\begin{flushright}
+\begin{minipage}{8cm}
+<<ПОГОДЖЕНО>>\\
+Начальник навчального відділу Чернівецького національного університету імені Юрія Федьковича\\
+\underline{\hspace{3cm}}~Я.Д.~Гарабажів\\
+
+
+\vspace{0.5cm}
+
+<<РЕКОМЕНДОВАНО>>\\
+Комісією Вченої ради з навчально-методичної роботи Чернівецького національного університету імені Юрія Федьковича\\
+Голова комісії університету\\
+\underline{\hspace{3cm}}~О.В.~Добржанський\\
+%<<\underline{\hspace{1cm}}>> \underline{\hspace{3cm}} 2018 р.\\
+Протокол №\underline{\hspace{0.5cm}} від <<\underline{\hspace{0.5cm}}>> \underline{\hspace{1cm}}  20\underline{\hspace{0.5cm}}~р.\\
+\end{minipage}
+\end{flushright} \\
+\end{tabular}
+
+
+
+
+
+
+
+\pagebreak
+
+\begin{center}
+ПЕРЕДМОВА
+\end{center}
+
+Освітньо-професійна програма підготовки здобувачів фахової передвищої освіти за спеціальністю 122 <<Комп'ютерні науки>> розроблена згідно з вимогами Закону України «Про фахову передвищу освіту». Програма відповідає п'ятому кваліфікаційному рівню за Національною рамкою кваліфікацій.
+
+бла-бла-бла
+
+\begin{center}
+Укладачі
+\end{center}
+
+
+1. Ковдриш В.В. -- кандидат фізико-математичних наук, викладач вищої кваліфікаційної категорії, завідувач Природничого відділення -- керівник робочої групи, гарант програми;
+
+%2. Лазорик В.В. -- кандидат фізико-математичних наук, викладач вищої кваліфікаційної категорії;
+
+%3. Коропецький В.В. -- викладач 2-ї кваліфікаційної категорії;
+
+%4. Луцюк Ю.В. -- викладач 1-ї кваліфікаційної категорії;
+
+%5. Коваленко К.О. -- викладач;
+
+%6. Комісарчук В.В. -- викладач;
+
+%7. Новеньку.Ю.Ю. -- супер викладач;
+
+
+
+
+%Рецензії-відгуки  зовнішніх стейкголдерів (за наявності):
+%
+%1.
+%
+%2.
+%
+%3.
+
+
+\vfill
+Ця освітньо-професійна програма не може бути повністю або частково відтворена, тиражована та розповсюджена без дозволу Коледжу Чернівецького національного університету імені Юрія Федьковича.
+
+
+
+
+%Проект освітньо-професійної програми обговорений та схвалений на засіданні Методичної ради Коледжу ЧНУ імені Юрія Федьковича
+%
+%Протокол №\underline{\hspace{1cm}} від <<\underline{\hspace{1cm}}>> \underline{\hspace{4cm}} 20\underline{\hspace{1cm}} року\vspace{1cm}
+%
+%Голова Методичної ради \underline{\hspace{3cm}} /О.Я. Білокрила/
+%
+%\vspace{3cm}
+%Затверджено та надано чинності Наказом ректора Чернівецького національного університету імені Юрія Федьковича  від <<\underline{\hspace{1cm}}>> \underline{\hspace{4cm}} 20\underline{\hspace{1cm}} року №\underline{\hspace{1cm}}
+
+
+
+
+
+\end{document}

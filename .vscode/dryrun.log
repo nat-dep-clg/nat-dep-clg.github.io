@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/vv/GitHubPages/nat-dep-clg.github.io'
+make: Leaving directory '/home/vv/GitHubPages/nat-dep-clg.github.io'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

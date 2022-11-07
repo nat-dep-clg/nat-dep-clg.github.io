@@ -9,7 +9,7 @@ main:
     url: /CE/
   - title: "КН"
     description: "Комп'ютерні науки"
-    url: /CS/
+    url: https://nat-dep-clg-chnu-cs.github.io/
     children:
       - title: "Child Link 1"
         url: /child-1-page-url/

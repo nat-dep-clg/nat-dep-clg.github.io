@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+Публічна документація
+{{ content }}
+
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+

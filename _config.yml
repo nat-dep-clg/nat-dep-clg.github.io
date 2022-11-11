@@ -31,7 +31,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "VVKo"
 description              : "Публічна документація"
 url                      : "https://nat-dep-clg.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nat-dep-clg/nat-dep-clg.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -44,6 +44,9 @@ github_username:  "nat-dep-clg-chnu"
 
 collections:
   docs:
+    output: true
+    permalink: /:collection/:path/
+  public-docs:
     output: true
     permalink: /:collection/:path/
 
@@ -80,7 +83,14 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
-
+  # _orders
+  - scope:
+      path: ""
+      type: "public-docs"
+    values:
+      layout: public-docs
+      comments: true
+        
 date_format: "%d.%m.%Y"
 
 plugins:

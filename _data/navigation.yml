@@ -1,6 +1,8 @@
 main:
   - title: "About"
     url: /about/
+  - title: "Діяльність" 
+    url: /public-docs/  # https://nat-dep-clg-public-docs.readthedocs.io/
   - title: "ПМ"
     description: 'Прикладна математика'
     url: /AM/
@@ -19,6 +21,12 @@ main:
         url: https://nat-dep-clg-chnu-cs.github.io/
   - title: "КОЛЕДЖ"
     url: http://college-chnu.cv.ua/
+ 
+sidebar-public-docs:
+  - title: "Діяльність"
+    children:
+      - title: "Розпорядження"
+        url: /public-docs/orders/
 
 sidebar-sample:
   - title: "Parent Page A"

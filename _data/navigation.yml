@@ -1,10 +1,10 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Діяльність" 
-    url: /public-docs/  # https://nat-dep-clg-public-docs.readthedocs.io/
+  - title: "Діяльність"
+    url: /public-docs/ # https://nat-dep-clg-public-docs.readthedocs.io/
   - title: "ПМ"
-    description: 'Прикладна математика'
+    description: "Прикладна математика"
     url: /AM/
   - title: "КІ"
     description: "Комп'ютерна інженерія"
@@ -20,8 +20,8 @@ main:
       - title: "ЦК"
         url: https://nat-dep-clg-chnu-cs.github.io/
   - title: "КОЛЕДЖ"
-    url: http://college-chnu.cv.ua/
- 
+    url: http://college-chnu.edu.ua/
+
 sidebar-public-docs:
   - title: "Діяльність"
     children:

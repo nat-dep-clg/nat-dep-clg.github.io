@@ -1,11 +1,11 @@
-Billy Rick:
-  name        : "VVKo"
-  bio         : "Cognitions comes through comparision"
-  avatar      : "/assets/images/bio.jpg"
+VVKo:
+  name: "VVKo"
+  bio: "Cognitions comes through comparision"
+  avatar: "/assets/images/bio.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:billyrick@rick.com"
+      url: "mailto:v.v.kovdrysh@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://thewhip.com"
